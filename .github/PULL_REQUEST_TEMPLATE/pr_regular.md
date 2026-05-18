@@ -31,6 +31,7 @@
 - [ ] Added new assets (meta files included)
 
 ## Merge conflict heads-up (if applicable)
+<!-- list any conflict areas! -->
 - Likely conflict areas (scenes / prefabs / ProjectSettings / shared managers / etc.):
   - 
 
