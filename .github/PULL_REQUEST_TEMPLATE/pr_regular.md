@@ -36,9 +36,14 @@
 
 ## Checklist
 - [ ] I performed a self-review of my code.
+- [ ] I have pulled from the repository main branch and merged main into this branch.
+- [ ] I made sure there aren't any other open PRs before creating this one.
 - [ ] I followed all naming conventions (within the project, for the branch, and this PR.)
 - [ ] I moved / updated the task(s) on the project board (if applicable.)
 
 
 ## Additional notes (optional)
 -
+
+### I acknowledge that all code written is my own or cited properly
+<-- Name here! -->
