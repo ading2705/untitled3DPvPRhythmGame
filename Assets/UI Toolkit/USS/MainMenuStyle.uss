@@ -9,4 +9,15 @@
     padding-left: 200px;
     width: 300px;
     font-size: 50px;
+    background-color: rgb(104, 135, 164);
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgb(0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgba(75, 92, 125, 0.69);
+    border-right-color: rgba(75, 92, 125, 0.69);
+    border-top-color: rgba(75, 92, 125, 0.69);
+    border-bottom-color: rgba(75, 92, 125, 0.69);
 }
