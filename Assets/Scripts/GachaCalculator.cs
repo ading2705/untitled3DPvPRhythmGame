@@ -62,14 +62,15 @@ public class GachaCalculator : MonoBehaviour
             PlayerPrefs.SetInt("pitySSR", currentPitySSR + 1);
             return GetPull(gachaItemSR);
         }
-        float pullVal = Random.Range(0f, 100f);
-        if (pullVal < raritySSR)
+        float pullVal = Random.Range(0f, 1f);
+        // Debug.Log(pullVal);
+        if (pullVal < raritySSR * (currentPitySSR + 1))
         {
             PlayerPrefs.SetInt("pitySSR", 0);
             PlayerPrefs.SetInt("pitySR", currentPitySR + 1);
             return GetPull(gachaItemSSR);
         }
-        else if (pullVal < raritySR + raritySSR)
+        else if (pullVal < raritySR * (currentPitySR + 1))
         {
             PlayerPrefs.SetInt("pitySR", 0);
             PlayerPrefs.SetInt("pitySSR", currentPitySSR + 1);
